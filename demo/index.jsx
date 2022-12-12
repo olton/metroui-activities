@@ -51,6 +51,54 @@ const App = () => {
                     </div>
                 </div>
             </div>
+            <div className="button-container">
+                <h2>Bars</h2>
+            </div>
+            <div className="button-container">
+                <div className="grid">
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.DEFAULT} type={ACTIVITY_TYPE.BARS}/>
+                    </div>
+                    <div className="cell bg-dark">
+                        <Activity style={ACTIVITY_STYLE.LIGHT} type={ACTIVITY_TYPE.BARS}/>
+                    </div>
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.COLOR} type={ACTIVITY_TYPE.BARS}/>
+                    </div>
+                </div>
+            </div>
+            <div className="button-container">
+                <h2>Cycle</h2>
+            </div>
+            <div className="button-container">
+                <div className="grid">
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.DEFAULT} type={ACTIVITY_TYPE.CYCLE}/>
+                    </div>
+                    <div className="cell bg-dark">
+                        <Activity style={ACTIVITY_STYLE.LIGHT} type={ACTIVITY_TYPE.CYCLE}/>
+                    </div>
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.COLOR} type={ACTIVITY_TYPE.CYCLE}/>
+                    </div>
+                </div>
+            </div>
+            <div className="button-container">
+                <h2>Ring</h2>
+            </div>
+            <div className="button-container">
+                <div className="grid">
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.DEFAULT} type={ACTIVITY_TYPE.RING}/>
+                    </div>
+                    <div className="cell bg-dark">
+                        <Activity style={ACTIVITY_STYLE.LIGHT} type={ACTIVITY_TYPE.RING}/>
+                    </div>
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.COLOR} type={ACTIVITY_TYPE.RING}/>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

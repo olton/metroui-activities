@@ -44,7 +44,7 @@ const Activity: FC<IActivityProps> = ({
                 <div className="activity-element-circle"></div>
             )}
 
-            {(type === ACTIVITY_TYPE.METRO || type === ACTIVITY_TYPE.RING) && (
+            {(type === ACTIVITY_TYPE.METRO) && (
                 <div className="activity-wrapper">
                     <div className="activity-element-circle"></div>
                     <div className="activity-element-circle"></div>
@@ -52,6 +52,26 @@ const Activity: FC<IActivityProps> = ({
                     <div className="activity-element-circle"></div>
                     <div className="activity-element-circle"></div>
                 </div>
+            )}
+
+            {(type === ACTIVITY_TYPE.RING) && (
+                <>
+                    <div className="activity-element-wrap">
+                        <div className="activity-element-circle"></div>
+                    </div>
+                    <div className="activity-element-wrap">
+                        <div className="activity-element-circle"></div>
+                    </div>
+                    <div className="activity-element-wrap">
+                        <div className="activity-element-circle"></div>
+                    </div>
+                    <div className="activity-element-wrap">
+                        <div className="activity-element-circle"></div>
+                    </div>
+                    <div className="activity-element-wrap">
+                        <div className="activity-element-circle"></div>
+                    </div>
+                </>
             )}
 
             {type === ACTIVITY_TYPE.SQUARE && (
