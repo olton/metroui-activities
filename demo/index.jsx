@@ -10,15 +10,12 @@ const App = () => {
     return (
         <>
             <div className="button-container" style={{flexFlow: "column"}}>
-                <h1>Metro UI<br/>Activities and Progress Set</h1>
+                <h1>Metro UI/Activities Set</h1>
                 <h2>For React</h2>
                 <p>Copyright 2022 by <a href="https://Korzh.com">Korzh.com</a></p>
             </div>
             <br/>
             <br/>
-            <div className="button-container">
-                <h1>Activities</h1>
-            </div>
             <div className="button-container">
                 <h2>Simple</h2>
             </div>

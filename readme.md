@@ -1,4 +1,4 @@
-# Metro UI Activities and Progress for React
+# Metro UI Activities for React
 Set of activities and progress bars for React in Metro UI
 
 ## Install
