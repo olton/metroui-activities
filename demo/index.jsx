@@ -99,6 +99,38 @@ const App = () => {
                     </div>
                 </div>
             </div>
+            <div className="button-container">
+                <h2>Square</h2>
+            </div>
+            <div className="button-container">
+                <div className="grid">
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.DEFAULT} type={ACTIVITY_TYPE.SQUARE}/>
+                    </div>
+                    <div className="cell bg-dark">
+                        <Activity style={ACTIVITY_STYLE.LIGHT} type={ACTIVITY_TYPE.SQUARE}/>
+                    </div>
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.COLOR} type={ACTIVITY_TYPE.SQUARE}/>
+                    </div>
+                </div>
+            </div>
+            <div className="button-container">
+                <h2>Metro</h2>
+            </div>
+            <div className="button-container">
+                <div className="grid">
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.DEFAULT} type={ACTIVITY_TYPE.METRO}/>
+                    </div>
+                    <div className="cell bg-dark">
+                        <Activity style={ACTIVITY_STYLE.LIGHT} type={ACTIVITY_TYPE.METRO}/>
+                    </div>
+                    <div className="cell">
+                        <Activity style={ACTIVITY_STYLE.COLOR} type={ACTIVITY_TYPE.METRO}/>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

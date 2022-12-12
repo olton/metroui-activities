@@ -45,13 +45,13 @@ const Activity: FC<IActivityProps> = ({
             )}
 
             {(type === ACTIVITY_TYPE.METRO) && (
-                <div className="activity-wrapper">
+                <>
                     <div className="activity-element-circle"></div>
                     <div className="activity-element-circle"></div>
                     <div className="activity-element-circle"></div>
                     <div className="activity-element-circle"></div>
                     <div className="activity-element-circle"></div>
-                </div>
+                </>
             )}
 
             {(type === ACTIVITY_TYPE.RING) && (
@@ -75,12 +75,12 @@ const Activity: FC<IActivityProps> = ({
             )}
 
             {type === ACTIVITY_TYPE.SQUARE && (
-                <div className="activity-wrapper">
+                <>
                     <div className="activity-element-square"></div>
                     <div className="activity-element-square"></div>
                     <div className="activity-element-square"></div>
                     <div className="activity-element-square"></div>
-                </div>
+                </>
             )}
 
             {type === ACTIVITY_TYPE.ATOM && (
