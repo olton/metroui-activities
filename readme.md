@@ -13,3 +13,24 @@ import {Activity} from "@metroui/activities"
 <Actyivity type{ACTIVITY_TYPE.ATOM} style={ACTIVITY_STYLE.COLOR} />
 ```
 
+### Activity Styles
+```typescript
+export enum ACTIVITY_STYLE {
+    COLOR,
+    LIGHT,
+    DEFAULT,
+}
+```
+
+### Activity Types
+```typescript
+export enum ACTIVITY_TYPE {
+    RING,
+    METRO,
+    SQUARE,
+    CYCLE,
+    SIMPLE,
+    BARS,
+    ATOM,
+}
+```
