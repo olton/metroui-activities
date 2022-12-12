@@ -36,7 +36,7 @@ const Activity: FC<IActivityProps> = ({
         <div className={classes}>
             {type === ACTIVITY_TYPE.SIMPLE && (
                 <svg className="circular">
-                    <circle className="path" cx="32" cy="32" r="32" fill="none" strokeWidth="2" strokeMiterlimit="10"/>
+                    <circle className="path" cx="32" cy="32" r="20" fill="none" strokeWidth="2" strokeMiterlimit="10"/>
                 </svg>
             )}
 

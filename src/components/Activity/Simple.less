@@ -5,6 +5,7 @@
         display: inline-block;
         width: 64px;
         height: 64px;
+        transform-origin: center;
 
         .circular{
             animation: rotate 2s linear infinite;
@@ -36,9 +37,18 @@
             .path {
                 animation:
                         dash 1.5s ease-in-out infinite,
-                        color 6s ease-in-out infinite;
+                        color 3s ease-in-out infinite;
             }
         }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
 
